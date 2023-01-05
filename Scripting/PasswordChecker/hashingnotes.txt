@@ -1,0 +1,9 @@
+hashing notes:
+
+-a hash function generates a value of fixed length for the input
+-the function is one way; don't know input if you have output
+-same string will always return same hash (idempotent)
+-ex MD5, SHA1, SHA256
+
+-common usage in hash table is to take key and hash, then take the hash and assign map to an address (aka store in memory)
+-however, increasingly adding length to a dictionary will slow performance (assume O1 'Big oh' notation with something like MD5)
