@@ -1,0 +1,24 @@
+# Machine learning notes
+
+Starts with AI (artificial intelligence)
+-currently have limited AI, only do a specific thing well
+-moving towards general AI
+
+Machine learning is working to get machines to do things without specific commands
+Deep learning is one way to implement algorithm in machine learning
+
+Data science overlaps with Machine Learning knowledge
+
+Machine learning:
+instead of giving input to calculate output of a function, give input and expected output
+The machine will figure out what the function is (model)
+all about predicting results with incoming Data
+
+Supervised: incoming data has categories (labeled test data)
+-classification, regression
+
+Unsupervised: unlabeled data for machine to create categories/groups
+-clustering, association rule learning
+
+Reinforcement: teaching machines through trial & error (reward vs punishment)
+-skill acquisition, real time learning
