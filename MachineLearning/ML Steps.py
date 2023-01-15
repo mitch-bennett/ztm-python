@@ -18,4 +18,8 @@ https://github.com/GokuMohandas/Made-With-ML
 https://www.kaggle.com/datasets/javagarm/fifa-19-complete-player-dataset
 https://docs.python.org/3/library/codecs.html#standard-encodings
 
+https://scikit-learn.org/stable/
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+https://scikit-learn.org/stable/modules/neighbors.html
+
 """
