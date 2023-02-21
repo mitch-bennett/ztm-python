@@ -1,0 +1,10 @@
+https://medium.com/@Excellarate/web-scraping-introduction-applications-and-best-practices-c7e5eb06c07e
+https://www.excellarate.com/blogs/web-scraping-introduction-applications-and-best-practices/
+
+sites typically have a /robots.txt file that will share what is allowed
+there are ethical and unethical ways to scrape
+
+many sites have an api access with a JSON file
+but need authentication or pass a token to make a request
+https://jsonplaceholder.typicode.com/
+
