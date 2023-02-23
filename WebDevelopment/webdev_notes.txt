@@ -1,0 +1,34 @@
+server contains html (text/content), css (styling), js (functionality/behavior)
+make a request through http/https to server, get files back
+
+--VENV--
+https://docs.python.org/3/library/venv.html
+create a virtual environment for everything
+when specifying, the second term defines the location
+if the folder already exists, the 'venv' files are placed directly in that folder
+e.g. 'python -m venv webserver' places the bin, include, lib files directly in webserver, not a different 'venv' folder
+
+--running FLASK--
+https://flask.palletsprojects.com/en/1.1.x/
+flask is a framework (somewhat like a library) but with pre-built tools and security
+flask is more of a micro-framework and faster/clean compared to django (which is a big kitchen)
+read through quickstart docs
+
+Need to add environment variable for flask app (to venv)
+export FLASK_APP=hello.py
+
+Option to add debug environment variable. automatically will update server on file save (don't need flask run)
+export FLASK_ENV=development
+
+then 'flask run' will run on localhost of machine
+you can open this in web browser as well
+Running on http://127.0.0.1:5000
+
+--running HTML--
+flask comes with render templates, which can return an html file
+this by default looks for a folder called 'templates'
+create this directory and move html files here
+this way, can create multiple different routes to different html files
+
+--using scripting files--
+similarly, store 'static' files in a directory called 'static'
