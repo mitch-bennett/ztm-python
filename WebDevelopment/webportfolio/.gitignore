@@ -1,0 +1,11 @@
+/venv/
+venv/
+/venv
+.vscode
+.vscode/
+__pycache__
+/ImageRecognition/*.pth
+/venv-webportfolio
+/venv-webportfolio/
+/lib
+/lib/
