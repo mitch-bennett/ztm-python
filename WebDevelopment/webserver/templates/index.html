@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <title>MY WEBSITE</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
-    I AM A WEB MASTER
-    <script src="script.js"></script>
+    {{ name }}
+    {{ post_id }}
+    <script src="static/script.js"></script>
 </body>
 </html>

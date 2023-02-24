@@ -3,6 +3,8 @@ make a request through http/https to server, get files back
 
 --VENV--
 https://docs.python.org/3/library/venv.html
+https://stackoverflow.com/questions/1783146/where-in-a-virtualenv-does-the-custom-code-go
+https://stackoverflow.com/questions/12184846/where-should-virtualenvs-be-created
 create a virtual environment for everything
 when specifying, the second term defines the location
 if the folder already exists, the 'venv' files are placed directly in that folder
@@ -32,3 +34,32 @@ this way, can create multiple different routes to different html files
 
 --using scripting files--
 similarly, store 'static' files in a directory called 'static'
+need to update .html file paths for the style files
+
+--favicon--
+https://flask.palletsprojects.com/en/1.1.x/patterns/favicon/
+this is the icon that is included in the page tab
+resource: https://icon-icons.com/
+in flask, the .ico image is placed in the static folder
+name this favicon.ico for best results
+
+--jinja--
+https://en.wikipedia.org/wiki/Jinja_(template_engine)
+flask also runs jinja under the hood. this gives it the ability to evaluate expressions with curly braces {{ }}
+
+--url_for--
+https://stackoverflow.com/questions/7478366/create-dynamic-urls-in-flask-with-url-for
+this allows you to prevent changing URLs throughout an application
+syntax: url_for('name of the function of the route','parameters (if required)')
+allows for dynamic copying of items
+
+--variable rules--
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#variable-rules
+each route can accept additional variables within < >
+ex <username>
+this is passed through as function parameter arguments to html files
+html files call out variable names in curly braces
+
+--MIME type--
+A media type (Multipurpose Internet Mail Extensions) indicates the nature and format of a document, file, or assortment of bytes
+browsers use the Content-Type header (not the file extension) to determine how to use it
