@@ -1,3 +1,40 @@
 https://themewagon.com/author/mashuptemplate/
 https://html5up.net/
 https://www.creative-tim.com/bootstrap-themes/free
+
+--Post/get methods--
+add request object (see quickstart) to add contact
+can send data with get by attaching info to the url
+aka a 'post' form action (submit_form)
+from code: <form action="submit_form" method="post" class="reveal-content">
+
+essentially, when we hit the send button, the 'submit_form' action was run
+but we are able to capture the data that the user sends, and read it with python
+
+--HTML forms--
+w3c forms - enter values with attributes to enter or required if specified
+Title: <input type="text"><br> ##br breaks to new line
+Title: <input type="text" required>
+
+automatically create a button with "submit" by default or with specified value
+<input type="submit">
+<input type="submit" value="Register!">
+
+others for different properties.. button, checkbox, select list
+First Name: <input type="text" name="firstname"><br>
+Last Name: <input type="text" name="lasttname"><br>
+Email: <inputer type="email" name="email" required><br>
+Password: <input type="password" min="5"><br>
+Birthday: <input type="date"><br>
+Gender:<br>
+<input type="radio" name="gender">Male<br>
+<input type="radio" name="gender">Female<br>
+<input type="radio" name="gender">Other<br>
+Pets:<br>
+<input type="checkbox">Cat<br>
+<input type="checkbox">Dog<br>
+Cars:<br>
+<select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="audi">Audi</option>
+</select><br>
