@@ -38,3 +38,12 @@ Cars:<br>
     <option value="volvo">Volvo</option>
     <option value="audi">Audi</option>
 </select><br>
+
+--database--
+want to create persistent log/track of each contact
+can be simple text, but also can be csv
+csv_writer object will append each new line
+can define header separately with a method, or can add a new line to writer object
+I changed this to be a+ so that it reads in the header and skips that line. no newline is needed
+    r = csv.reader(db2)
+    next(r, None)
