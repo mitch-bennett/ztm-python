@@ -15,6 +15,6 @@ import re
 
 # password - at least 8 characters, contain letters, numbers, $%#@
 pattern = re.compile(r"([a-zA-Z0-9\$\%\#\@]{8,}")
-string = "LeNGThEanam%Rn3"
+string = "enterpassword"
 a = pattern.search(string)
 print(a)
